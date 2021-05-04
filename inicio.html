@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-        $(frm.txt).keyup(function(){
-            $(frm).get(0).setAttribute('action', './'+$(frm.txt).val()+'.html');
-        });
-    });
-    </script>
 </head>
     <body class="back-img" bgproperties="fixed">
 	<FONT COLOR="#FFFFFF">
@@ -45,6 +37,14 @@
                     </div>                    
                 </div>
             </div>
+				    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(frm.txt).keyup(function(){
+            $(frm).get(0).setAttribute('action', './'+$(frm.txt).val()+'.html');
+        });
+    });
+    </script>
         </main>        
     </body>    
 </html>
